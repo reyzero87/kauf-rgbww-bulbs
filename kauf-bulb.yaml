@@ -6,7 +6,7 @@ substitutions:
   # yaml file by redefining them.
   #
   # packages:
-  #   kauf.rgbww: github://KaufHA/kauf-rgbww-bulbs/kauf-bulb.yaml
+  #   kauf.rgbww: github://reyzero87/kauf-rgbww-bulbs/kauf-bulb.yaml
   #
 
   name: kauf-bulb              # **** CHANGE DEVICE NAME TO SOMETHING UNIQUE PER DEVICE.  RENAME YAML FILE TO SAME NAME.    ****
@@ -25,7 +25,7 @@ substitutions:
   project_ver_let: y
 
   sub_4m: "false"
-  sub_import_url: github://KaufHA/kauf-rgbww-bulbs/kauf-bulb.yaml
+  sub_import_url: github://reyzero87/kauf-rgbww-bulbs/kauf-bulb.yaml
 
   sub_on_turn_on:  script_do_nothing
   sub_on_turn_off: script_do_nothing
@@ -72,7 +72,7 @@ external_components:
     refresh: never
   - source:
       type: git
-      url: https://github.com/KaufHA/kauf-rgbww-bulbs
+      url: https://github.com/reyzero87/kauf-rgbww-bulbs
     refresh: always
 
 
